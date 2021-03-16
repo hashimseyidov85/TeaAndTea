@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/faqs.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!--START NAVBAR-->
+    <nav
+      class="navbar navbar-expand-lg navbar-light"
+      style="background-color: white; border-bottom: solid 1px black"
+    >
+      <a href="../login/index.html"
+        ><img src="../images/log-nav.jpg" alt="" class="img-fluid"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div
+        class="collapse navbar-collapse"
+        id="navbarSupportedContent"
+        style="background-color: white"
+      >
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <strong
+              ><a
+                class="nav-link"
+                href="../home/index.html"
+                style="color: rgb(25, 25, 25); font-size: 15px"
+                >HOME <span class="sr-only">(current)</span></a
+              >
+            </strong>
+          </li>
+          <li class="nav-item active">
+            <strong
+              ><a
+                class="nav-link"
+                href="#"
+                style="color: rgb(25, 25, 25); font-size: 15px"
+                >TEA <span class="sr-only">(current)</span></a
+              >
+            </strong>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              style="color: rgb(25, 25, 25); font-size: 15px"
+            >
+              <strong>LOOSE LEAF TEA</strong>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <div class="dropdown-item" style="width: 1100px">
+                <div class="row">
+                  <a href="#"
+                    ><div class="col-lg-3">
+                      <div class="card" style="width: 14rem">
+                        <img
+                          class="card-img-top"
+                          src="../images/blacktea.jpg"
+                          alt="Card image cap"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Commodos</p>
+                          <p class="card-text">Sarcus</p>
+                          <p class="card-text">Fermentumos</p>
+                          <p class="card-text">Habitasse</p>
+                        </div>
+                      </div>
+                    </div></a
+                  >
+                  <a href="#"
+                    ><div class="col-lg-3 col-md-12 col-sm-12">
+                      <div class="card" style="width: 14rem">
+                        <img
+                          class="card-img-top"
+                          src="../images/roolbos.jpg"
+                          alt="Card image cap"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Maecenas</p>
+                          <p class="card-text">Malesuada</p>
+                          <p class="card-text">Cosmos Loremous</p>
+                          <p class="card-text">Molateas</p>
+                        </div>
+                      </div>
+                    </div></a
+                  >
+                  <a href="#"
+                    ><div class="col-lg-3 col-md-12 col-sm-12">
+                      <div class="card" style="width: 14rem">
+                        <img
+                          class="card-img-top"
+                          src="../images/greentea.jpg"
+                          alt="Card image cap"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Commodos</p>
+                          <p class="card-text">Sarcus</p>
+                          <p class="card-text">Milancenlos</p>
+                          <p class="card-text">Milancelos</p>
+                          <p class="card-text">Habitasse</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="#"
+                    ><div class="col-lg-3 col-md-12 col-sm-12">
+                      <div class="card" style="width: 14rem">
+                        <img
+                          class="card-img-top"
+                          src="../images/herbaltea.jpg"
+                          alt="Card image cap"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Maecenas</p>
+                          <p class="card-text">Malesuada</p>
+                          <p class="card-text">Cosmos Loremous</p>
+                          <p class="card-text">Molateas</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle dropdown-toggle-split"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              style="color: rgb(25, 25, 25); font-size: 15px"
+            >
+              <strong>LOOK BOOK</strong>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Cosmopolls</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Sarcus</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Fermentumo</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Habitasse</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Milancelos</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Malesuado</a>
+            </div>
+          </li>
+
+          <li class="nav-item active">
+            <strong
+              ><a
+                class="nav-link"
+                href="../blog/index.html"
+                style="color: rgb(25, 25, 25); font-size: 15px"
+                >BLOG <span class="sr-only">(current)</span></a
+              >
+            </strong>
+          </li>
+          <li class="nav-item active">
+            <strong
+              ><a
+                class="nav-link"
+                href="../contactus/index.html"
+                style="color: rgb(25, 25, 25); font-size: 15px"
+                >CONTACTUS <span class="sr-only">(current)</span></a
+              >
+            </strong>
+          </li>
+          <li class="nav-item active">
+            <strong
+              ><a
+                class="nav-link"
+                href="../products/index.html"
+                style="color: rgb(25, 25, 25); font-size: 15px"
+                >PRODUCTS <span class="sr-only">(current)</span></a
+              >
+            </strong>
+          </li>
+          <li class="nav-item active">
+            <strong
+              ><a
+                class="nav-link"
+                href="#"
+                style="color: rgb(25, 25, 25); font-size: 15px"
+              >
+                | FAQS <span class="sr-only">(current)</span></a
+              >
+            </strong>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <img
+            src="../images/so.jpg"
+            alt=""
+            class="img-fluid"
+            style="margin: 20px"
+          />
+          <span style="margin: 20px"> <i class="fas fa-search"></i> </span>
+          <span style="margin: 20px"><i class="fas fa-user"></i></span>
+          <span style="margin: 20px"><i class="fas fa-heart"></i></span>
+          <span style="margin: 20px"><i class="fas fa-shopping-cart"></i></span>
+        </form>
+      </div>
+    </nav>
+    <!--END NAVBAR -->
+
+    <div class="container-faq_header">
+      <ul class="breadcrumb">
+        <li><a href="#">Home</a></li>
+        <li>Theme FAQs</li>
+      </ul>
+
+      <h1>Theme FAQs</h1>
+      <p>
+        Below FAQ are some common concerns of our clients before purchasing the
+        theme, if you have other questions, please just send it to
+        <a href="#">support@halothemes.com</a>
+      </p>
+    </div>
+
+    <div class="container-fluid" style="margin-bottom: 10px">
+      <div class="row">
+        <div class="col-lg-3 col-12-12 col-sm-12" style="padding-left: 40px">
+          <div
+            style="
+              height: 200px;
+              background-color: white;
+              width: 100%;
+              text-align: center;
+              margin-top: 50px;
+              margin-bottom: 20px;
+            "
+          >
+            <h5 style="color: black">Need Help?</h5>
+            <hr style="width: 230px; border: solid 2px black" />
+            <div class="row">
+              <div class="col-md-6">
+                <span style="margin: 20px">
+                  <i class="fas fa-comments" style="font-size: 30px"></i><br>
+                </span>
+                <a href="#" style="color: black; text-decoration: underline"
+                  >Message us</a
+                >
+              </div>
+              <div class="col-md-6">
+                <span style="margin: 20px"
+                  ><i class="fas fa-envelope" style="font-size: 30px"></i
+                ><br></span>
+                <a href="#" style="color: black; text-decoration: underline"
+                  >Contact us</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-1 col-md-0 col-sm-0"></div>
+        <div class="col-lg-8 col-sm-12 col-sm-12" style="padding-top: 40px">
+          <h5 style="font-weight: bold">Pre Sales Questions</h5>
+          <hr style="border: solid 2px black" />
+
+          <div class="bs-example">
+            <div
+              class="accordion"
+              id="accordionExample"
+              style="background-color: white; color: black"
+            >
+              <div
+                class="card"
+                style="
+                  background-color: white;
+                  color: black;
+                  border: none;
+                  border-bottom: solid 1px grey;
+                "
+              >
+                <div
+                  class="card-header"
+                  id="headingOne"
+                  style="background-color: white; color: black"
+                >
+                  <h2
+                    class="mb-0"
+                    style="background-color: white; color: black"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-link collapsed"
+                      data-toggle="collapse"
+                      data-target="#collapseOne"
+                      style="
+                        width: 100%;
+                        text-align: start;
+                        text-decoration: none;
+                        color: grey;
+                      "
+                    >
+                    Will your template be fully compatible with Shopify?
+                      <i
+                        class="fa fa-plus"
+                        style="text-align: right; margin-left: 80%"
+                      ></i>
+                    </button>
+                  </h2>
+                </div>
+                <div
+                  id="collapseOne"
+                  class="collapse"
+                  aria-labelledby="headingOne"
+                  data-parent="#accordionExample"
+                >
+                  <div
+                    class="card-body"
+                    style="background-color: white; color: black"
+                  >
+                    <p style="background-color: white; color: black">
+                      Yes it is.
+                      <a
+                        href="https://www.tutorialrepublic.com/html-tutorial/"
+                        target="_blank"
+                        >Learn more.</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="card"
+                style="
+                  background-color: white;
+                  color: black;
+                  border: none;
+                  border-bottom: solid 1px grey;
+                "
+              >
+                <div
+                  class="card-header"
+                  id="headingTwo"
+                  style="background-color: white; color: black"
+                >
+                  <h2
+                    class="mb-0"
+                    style="background-color: white; color: black"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-link collapsed"
+                      data-toggle="collapse"
+                      data-target="#collapse2"
+                      style="
+                        width: 100%;
+                        text-align: start;
+                        text-decoration: none;
+                        color: grey;
+                      "
+                    >
+                    Does the theme support image resizing and cropping? 
+                      <i
+                        class="fa fa-plus"
+                        style="text-align: right; margin-left: 80%"
+                      ></i>
+                    </button>
+                  </h2>
+                </div>
+                <div
+                  id="collapse2"
+                  class="collapse"
+                  aria-labelledby="headingTwo"
+                  data-parent="#accordionExample"
+                >
+                  <div
+                    class="card-body"
+                    style="background-color: white; color: black"
+                  >
+                    <p>
+                      es. Normally, the theme will resize images to a default size (based on your width/height ratio setting). We also have Crop setting if you don’t want to scale the image.
+                      <a
+                        href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/"
+                        target="_blank"
+                        >Learn more.</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="card"
+                style="
+                  background-color: white;
+                  color: black;
+                  border: none;
+                  border-bottom: solid 1px grey;
+                "
+              >
+                <div
+                  class="card-header"
+                  id="headingThree"
+                  style="background-color: white; color: black"
+                >
+                  <h2
+                    class="mb-0"
+                    style="background-color: white; color: black"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-link collapsed"
+                      data-toggle="collapse"
+                      data-target="#collapse3"
+                      style="
+                        width: 100%;
+                        text-align: start;
+                        text-decoration: none;
+                        color: grey;
+                      "
+                    >
+                    I cannot upload the theme to my Shopify store / Shopify alerts that the file is too big to upload, what is the problem? 
+                      <i
+                        class="fa fa-plus"
+                        style="text-align: right; margin-left: 80%"
+                      ></i>
+                    </button>
+                  </h2>
+                </div>
+                <div
+                  id="collapse3"
+                  class="collapse"
+                  aria-labelledby="headingThree"
+                  data-parent="#accordionExample"
+                >
+                  <div
+                    class="card-body"
+                    style="background-color: white; color: black"
+                  >
+                    <p>
+                      No,We don't
+                      <a
+                        href="https://www.tutorialrepublic.com/css-tutorial/"
+                        target="_blank"
+                        >Learn more.</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h5 style="font-weight: bold; margin-top: 20px">Theme Questions</h5>
+          <hr style="border: solid 2px black" />
+
+          <div class="bs-example" style="background-color: white; color: black">
+            <div class="accordion" id="accordionExample">
+              <div
+                class="card"
+                style="
+                  background-color: white;
+                  color: black;
+                  border: none;
+                  border-bottom: solid 1px grey;
+                "
+              >
+                <div
+                  class="card-header card-white"
+                  id="headingOne"
+                  style="background-color: white; color: black"
+                >
+                  <h2
+                    class="mb-0"
+                    style="background-color: white; color: black"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-link collapsed"
+                      data-toggle="collapse"
+                      data-target="#collapseOne4"
+                      style="
+                        width: 100%;
+                        text-align: start;
+                        text-decoration: none;
+                        color: grey;
+                      "
+                    >
+                    What I have to do when I need your support?
+                      <i
+                        class="fa fa-plus"
+                        style="text-align: right; margin-left: 80%"
+                      ></i>
+                    </button>
+                  </h2>
+                </div>
+                <div
+                  id="collapseOne4"
+                  class="collapse"
+                  aria-labelledby="headingOne"
+                  data-parent="#accordionExample"
+                >
+                  <div
+                    class="card-body"
+                    style="background-color: white; color: black"
+                  >
+                    <p>
+                      To save your time and reach our support quickly, please follow below steps:
+                      <a
+                        href="https://www.tutorialrepublic.com/html-tutorial/"
+                        target="_blank"
+                        >Learn more.</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="card"
+                style="
+                  background-color: white;
+                  color: black;
+                  border: none;
+                  border-bottom: solid 1px grey;
+                "
+              >
+                <div
+                  class="card-header"
+                  id="headingTwo"
+                  style="background-color: white; color: black"
+                >
+                  <h2
+                    class="mb-0"
+                    style="background-color: white; color: black"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-link collapsed"
+                      data-toggle="collapse"
+                      data-target="#collapseTwo5"
+                      style="
+                        width: 100%;
+                        text-align: start;
+                        text-decoration: none;
+                        color: grey;
+                      "
+                    >
+                    Would assistance be available to upload the template if needed?
+                      <i
+                        class="fa fa-plus"
+                        style="text-align: right; margin-left: 80%"
+                      ></i>
+                    </button>
+                  </h2>
+                </div>
+                <div
+                  id="collapseTwo5"
+                  class="collapse"
+                  aria-labelledby="headingTwo"
+                  data-parent="#accordionExample"
+                >
+                  <div
+                    class="card-body"
+                    style="background-color: white; color: black"
+                  >
+                    <p>
+                      Yes, we will assist you to install the template if needed
+                      <a
+                        href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/"
+                        target="_blank"
+                        >Learn more.</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="card"
+                style="
+                  background-color: white;
+                  color: black;
+                  border: none;
+                  border-bottom: solid 1px grey;
+                "
+              >
+                <div
+                  class="card-header"
+                  id="headingThree"
+                  style="background-color: white; color: black"
+                >
+                  <h2
+                    class="mb-0"
+                    style="background-color: white; color: black"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-link collapsed"
+                      data-toggle="collapse"
+                      data-target="#collapseThree6"
+                      style="
+                        width: 100%;
+                        text-align: start;
+                        text-decoration: none;
+                        color: grey;
+                      "
+                    >
+                    Can I turn on/off Lazy Loading Image / Item Animation / Fade Up on the page?
+                      <i
+                        class="fa fa-plus"
+                        style="text-align: right; margin-left: 80%"
+                      ></i>
+                    </button>
+                  </h2>
+                </div>
+                <div
+                  id="collapseThree6"
+                  class="collapse"
+                  aria-labelledby="headingThree"
+                  data-parent="#accordionExample"
+                >
+                  <div
+                    class="card-body"
+                    style="background-color: white; color: black"
+                  >
+                    <p>
+                      Yes. You can turn on/off the animation in the Setting page.
+                      <a
+                        href="https://www.tutorialrepublic.com/css-tutorial/"
+                        target="_blank"
+                        >Learn more.</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- START OF FOOTER-->
+    <footer class="footer-area footer--light">
+      <div class="footer-big">
+        <!-- start .container -->
+        <!-- <div class="container"> -->
+        <div class="row" style="padding-left: 50px">
+          <div class="col-lg-2 col-sm-12">
+            <div class="footer-widget">
+              <div class="widget-about">
+                <img src="../images/logo1.jpg" alt="" class="img-fluid" />
+                <p>685 Market Street</p>
+                <p>San Francisco, CA 94105</p>
+                <ul class="contact-details">
+                  <li>
+                    <span class="icon-earphones">Call Us:</span>
+                    <a href="tel:344-755-111" style="font-size: 12px"
+                      >+1 689 699 TEATEA</a
+                    >
+                  </li>
+                  <li>
+                    <span class="icon-envelope-open"> Email</span>
+                    <a
+                      href="mailto:support@aazztech.com"
+                      style="font-size: 12px; color: black"
+                      >support@halothemes.com</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- Ends: .footer-widget -->
+          </div>
+          <!-- end /.col-md-4 -->
+
+          <div class="col-lg-2 col-sm-3">
+            <div class="footer-widget">
+              <div class="footer-menu footer-menu--1">
+                <h4 class="footer-widget-title">Shop</h4>
+                <ul>
+                  <li>
+                    <a href="#">teas</a>
+                  </li>
+                  <li>
+                    <a href="#">teaware</a>
+                  </li>
+                  <li>
+                    <a href="#">Loose Leaft tea</a>
+                  </li>
+                  <li>
+                    <a href="#">Tea Bags</a>
+                  </li>
+                  <li>
+                    <a href="#">LookBook</a>
+                  </li>
+                  <li>
+                    <a href="#">Shop By Brand</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- end /.footer-menu -->
+            </div>
+            <!-- Ends: .footer-widget -->
+          </div>
+          <!-- end /.col-md-3 -->
+
+          <div class="col-lg-2 col-sm-3">
+            <div class="footer-widget">
+              <div class="footer-menu">
+                <h4 class="footer-widget-title">About Us</h4>
+                <ul>
+                  <li>
+                    <a href="#">Blog</a>
+                  </li>
+                  <li>
+                    <a href="#">Press Release</a>
+                  </li>
+                  <li>
+                    <a href="#">About Us</a>
+                  </li>
+                  <li>
+                    <a href="#">Contact us</a>
+                  </li>
+                  <li>
+                    <a href="#">Contact Us</a>
+                  </li>
+                  <li>
+                    <a href="#">Find a Store</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- end /.footer-menu -->
+            </div>
+            <!-- Ends: .footer-widget -->
+          </div>
+          <!-- end /.col-lg-3 -->
+
+          <div class="col-lg-2 col-sm-3">
+            <div class="footer-widget">
+              <div class="footer-menu no-padding">
+                <h4 class="footer-widget-title">Customer Care</h4>
+                <ul>
+                  <li>
+                    <a href="#">Shipping</a>
+                  </li>
+                  <li>
+                    <a href="#">Return Policy</a>
+                  </li>
+                  <li>
+                    <a href="#">Terms And Conditions</a>
+                  </li>
+                  <li>
+                    <a href="#">Privacy Policy</a>
+                  </li>
+                  <li>
+                    <a href="#">FAQs</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- end /.footer-menu -->
+            </div>
+            <!-- Ends: .footer-widget -->
+          </div>
+          <div class="col-lg-2 col-sm-3">
+            <div class="footer-widget">
+              <div class="footer-menu no-padding">
+                <h4 class="footer-widget-title">Follow us</h4>
+                <div class="social-icons">
+                  <a target="_blank " href="https://www.facebook.com/shopify "
+                    ><i class="fab fa-facebook-square"></i
+                  ></a>
+                  <a target="_blank " href="https://messenger.com/shopify "
+                    ><i class="fab fa-facebook-messenger"></i
+                  ></a>
+                  <a target="_blank " href="https://twitter.com/shopify "
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a target="_blank " href="https://pinterest.com/shopify "
+                    ><i class="fab fa-pinterest"></i
+                  ></a>
+                  <a target="_blank " href="https://instagram.com/shopify "
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- end /.footer-menu -->
+            </div>
+            <!-- Ends: .footer-widget -->
+          </div>
+          <!-- Ends: .col-lg-3 -->
+        </div>
+        <!-- end /.row -->
+        <!-- </div> -->
+        <!-- end /.container -->
+      </div>
+      <!-- end /.footer-big -->
+
+      <div class="mini-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div
+                class="copyright-text"
+                style="color: white; text-align: start"
+              >
+                <p>
+                  © 2018 <a href="#">Tea | </a>TeaDemo.Powered by
+                  Shopify.Shopify Themes By<br />
+                  <a href="#">Hallothemes.com</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- END OF FOOTER -->
+
+    <script type="text/javascript" src="js/main.js"></script>
+    
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
