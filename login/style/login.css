@@ -1,3 +1,11 @@
+/*BODY CSS*/
+body {background-color:white;}
+.container-fluid {padding:50px;}
+.container{background-color:white;padding:50px;   }
+#title{font-family: 'Lobster', cursive;;}
+
+/* 
+
 
 /* 
 
@@ -12,8 +20,7 @@ NAVBAR CSS
     display:none;
 }
 
-/* 
-
+/*
 FOOTER CSS
 
 */
@@ -94,7 +101,7 @@ a {
  background:#e7e8ed
 }
 .footer-big .footer-menu ul li a,.footer-big p,.footer-big ul li {
- color:#787878
+ color:#898b96
 }
 .footer-menu {
  padding-left:48px
@@ -160,98 +167,4 @@ a {
  .footer-menu {
   padding-left:0
  }
-}
-body .container-faq_header {
-  width: 75%;
-  margin: 0;
-  margin-left: 3%;
-  margin-top: 5%;
-  padding: 0;
-}
-
-@media screen and (max-width: 1550px) {
-  body .container-faq_header {
-    width: 92%;
-    margin-left: 3%;
-  }
-}
-
-@media screen and (max-width: 1025px) {
-  body .container-faq_header {
-    width: 92%;
-    margin-left: 1.5%;
-  }
-}
-
-body .container-faq_header .breadcrumb {
-  padding: 100px 0;
-  list-style: none;
-  background-color: white;
-}
-
-body .container-faq_header .breadcrumb li {
-  display: inline;
-  color: #6e6d6d;
-  font-size: 12px;
-}
-
-body .container-faq_header .breadcrumb li a {
-  text-decoration: none;
-  color: #6e6d6d;
-}
-
-body .container-faq_header .breadcrumb li + li:before {
-  padding: 8px;
-  color: #6e6d6d;
-  content: ">";
-}
-
-body .container-faq_header p {
-  font-size: 12px;
-  color: #6e6d6d;
-}
-
-@media screen and (max-width: 1025px) {
-  body .container-faq_header p {
-    font-size: 11px;
-  }
-}
-
-body .container-faq_header p a {
-  color: #09a073;
-}
-
-@media screen and (max-width: 1550px) {
-  body .container-faq_header p {
-    padding-left: 3%;
-  }
-}
-
-@media screen and (max-width: 1025px) {
-  body .container-faq_header p {
-    padding-left: 0;
-  }
-}
-
-body .container-faq_header .breadcrumb {
-  padding: 10px 0;
-  list-style: none;
-  background-color: white;
-}
-
-body .container-faq_header .breadcrumb li {
-  display: inline;
-  color: #6e6d6d;
-  font-size: 12px;
-}
-
-body .container-faq_header .breadcrumb li a {
-  text-decoration: none;
-  color: #6e6d6d;
-}
-
-body .container-faq_header .breadcrumb li + li:before {
-  padding: 8px;
-  color: #6e6d6d;
-  content: ">";
 }
