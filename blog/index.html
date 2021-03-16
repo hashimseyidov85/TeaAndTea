@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/blog.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!--START NAVBAR-->
+    <nav
+      class="navbar navbar-expand-lg navbar-light"
+      style="background-color: white; border-bottom: solid 1px black"
+    >
+      <a href="../login/index.html"
+        ><img src="../images/log-nav.jpg" alt="" class="img-fluid"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div
+        class="collapse navbar-collapse"
+        id="navbarSupportedContent"
+        style="background-color: white"
+      >
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <strong
+              ><a
+                class="nav-link"
+                href="../home/index.html"
+                style="color: rgb(25, 25, 25); font-size: 15px"
+                >HOME <span class="sr-only">(current)</span></a
+              >
+            </strong>
+          </li>
+          <li class="nav-item active">
+            <strong
+              ><a
+                class="nav-link"
+                href="#"
+                style="color: rgb(25, 25, 25); font-size: 15px"
+                >TEA <span class="sr-only">(current)</span></a
+              >
+            </strong>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              style="color: rgb(25, 25, 25); font-size: 15px"
+            >
+              <strong>LOOSE LEAF TEA</strong>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <div class="dropdown-item" style="width: 1100px">
+                <div class="row">
+                  <a href="#"
+                    ><div class="col-lg-3">
+                      <div class="card" style="width: 14rem">
+                        <img
+                          class="card-img-top"
+                          src="../images/blacktea.jpg"
+                          alt="Card image cap"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Commodos</p>
+                          <p class="card-text">Sarcus</p>
+                          <p class="card-text">Fermentumos</p>
+                          <p class="card-text">Habitasse</p>
+                        </div>
+                      </div>
+                    </div></a
+                  >
+                  <a href="#"
+                    ><div class="col-lg-3 col-md-12 col-sm-12">
+                      <div class="card" style="width: 14rem">
+                        <img
+                          class="card-img-top"
+                          src="../images/roolbos.jpg"
+                          alt="Card image cap"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Maecenas</p>
+                          <p class="card-text">Malesuada</p>
+                          <p class="card-text">Cosmos Loremous</p>
+                          <p class="card-text">Molateas</p>
+                        </div>
+                      </div>
+                    </div></a
+                  >
+                  <a href="#"
+                    ><div class="col-lg-3 col-md-12 col-sm-12">
+                      <div class="card" style="width: 14rem">
+                        <img
+                          class="card-img-top"
+                          src="../images/greentea.jpg"
+                          alt="Card image cap"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Commodos</p>
+                          <p class="card-text">Sarcus</p>
+                          <p class="card-text">Milancenlos</p>
+                          <p class="card-text">Milancelos</p>
+                          <p class="card-text">Habitasse</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="#"
+                    ><div class="col-lg-3 col-md-12 col-sm-12">
+                      <div class="card" style="width: 14rem">
+                        <img
+                          class="card-img-top"
+                          src="../images/herbaltea.jpg"
+                          alt="Card image cap"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">Maecenas</p>
+                          <p class="card-text">Malesuada</p>
+                          <p class="card-text">Cosmos Loremous</p>
+                          <p class="card-text">Molateas</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle dropdown-toggle-split"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              style="color: rgb(25, 25, 25); font-size: 15px"
+            >
+              <strong>LOOK BOOK</strong>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Cosmopolls</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Sarcus</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Fermentumo</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Habitasse</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Milancelos</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Malesuado</a>
+            </div>
+          </li>
+
+          <li class="nav-item active">
+            <strong
+              ><a
+                class="nav-link"
+                href="#"
+                style="color: rgb(25, 25, 25); font-size: 15px"
+                >BLOG <span class="sr-only">(current)</span></a
+              >
+            </strong>
+          </li>
+          <li class="nav-item active">
+            <strong
+              ><a
+                class="nav-link"
+                href="../contactus/index.html"
+                style="color: rgb(25, 25, 25); font-size: 15px"
+                >CONTACTUS <span class="sr-only">(current)</span></a
+              >
+            </strong>
+          </li>
+          <li class="nav-item active">
+            <strong
+              ><a
+                class="nav-link"
+                href="../products/index.html"
+                style="color: rgb(25, 25, 25); font-size: 15px"
+                >PRODUCTS <span class="sr-only">(current)</span></a
+              >
+            </strong>
+          </li>
+          <li class="nav-item active">
+            <strong
+              ><a
+                class="nav-link"
+                href="../faqs/index.html"
+                style="color: rgb(25, 25, 25); font-size: 15px"
+              >
+                | FAQS <span class="sr-only">(current)</span></a
+              >
+            </strong>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <img
+            src="../images/so.jpg"
+            alt=""
+            class="img-fluid"
+            style="margin: 20px"
+          />
+          <span style="margin: 20px"> <i class="fas fa-search"></i> </span>
+          <span style="margin: 20px"><i class="fas fa-user"></i></span>
+          <span style="margin: 20px"><i class="fas fa-heart"></i></span>
+          <span style="margin: 20px"><i class="fas fa-shopping-cart"></i></span>
+        </form>
+      </div>
+    </nav>
+    <!--END NAVBAR -->
+
+    <!--MAIN CONTENT-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3 col-md-12">
+          <h2>News</h2>
+          <br /><br />
+          <h4 style="font-weight: bold">Search</h4>
+          <br />
+          <div class="input-group">
+            <input
+              type="search"
+              class="form-control rounded"
+              placeholder="Search"
+              aria-label="Search"
+              aria-describedby="search-addon"
+            />
+            <button type="button" class="btn btn-outline-primary">
+              search
+            </button>
+          </div>
+          <br /><br />
+
+          <hr style="margin-top: -10px" />
+          <br />
+
+          <h4 style="font-weight: bold">Blog Categories</h4>
+          <br />
+          All<br />
+          Latest News<br />
+          Promotion<br />
+          Special Offers<br />
+          Updates<br /><br />
+
+          <hr style="margin-top: -10px" />
+          <br />
+
+          <h4 style="font-weight: bold">Recent Posts</h4>
+          <br />
+          <div class="container">
+            <div class="row">
+              <div class="col-md-5" style="height: 120px">
+                <img
+                  src="../images/herbaltea.jpg"
+                  style="border-radius: 18px; height: 100px"
+                  alt="Card image cap"
+                />
+              </div>
+              <div class="col-md-6" style="padding-top: 10px">
+                <i style="font-size: 12px"> Naminos Lementum An Cosmopolis</i
+                ><br />
+                <b style="font-size: 11px">August 12, 2020</b>
+              </div>
+              <br />
+            </div>
+            <div class="row">
+              <div class="col-md-5" style="height: 120px">
+                <img
+                  src="../images/herbaltea.jpg"
+                  style="border-radius: 18px; height: 100px"
+                  alt="Card image cap"
+                />
+              </div>
+              <div class="col-md-6" style="padding-top: 10px">
+                <i style="font-size: 12px"> Naminos Lementum An Cosmopolis</i
+                ><br />
+                <b style="font-size: 11px">August 12, 2020</b>
+              </div>
+              <br />
+            </div>
+            <div class="row">
+              <div class="col-md-5" style="height: 120px">
+                <img
+                  src="../images/herbaltea.jpg"
+                  style="border-radius: 18px; height: 100px"
+                  alt="Card image cap"
+                />
+              </div>
+              <div class="col-md-6" style="padding-top: 10px">
+                <i style="font-size: 12px"> Naminos Lementum An Cosmopolis</i
+                ><br />
+                <b style="font-size: 11px">August 12, 2020</b>
+              </div>
+              <br />
+            </div>
+          </div>
+
+          <hr style="margin-top: 10px" />
+          <br />
+
+          <h4 style="font-weight: bold">Best Sellers</h4>
+          <br />
+
+          <div class="container">
+            <div class="row">
+              <div class="col-md-5" style="height: 120px">
+                <img
+                  src="../images/herbaltea.jpg"
+                  style="border-radius: 18px; height: 100px"
+                  alt="Card image cap"
+                />
+              </div>
+              <div class="col-md-6" style="padding-top: 10px">
+                <b style="font-size: 12px"> Naminos Lementum An Cosmopolis</b>
+                <p style="font-size: 11px">
+                  <strike>$69.00</strike> from $36.80
+                </p>
+                <div class="container">
+                  <div class="row" style="margin-top: -20px">
+                    <div class="col-md-6">
+                      <div
+                        style="
+                          border: solid 4px brown;
+                          border-radius: 50%;
+                          background-color: red;
+                          height: 20px;
+                          width: 20px;
+                        "
+                      ></div>
+                    </div>
+                    <div class="col-md-6" style="text-align: start">
+                      <div
+                        style="
+                          border: solid 4px grey;
+                          border-radius: 50%;
+                          background-color: green;
+                          height: 20px;
+                          width: 20px;
+                          margin-left: -20px;
+                        "
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+
+                <a href="#" style="text-decoration: none"
+                  ><span>&#43; Details</span></a
+                >
+              </div>
+              <br />
+            </div>
+            <div class="row">
+              <div class="col-md-5" style="height: 120px">
+                <img
+                  src="../images/herbaltea.jpg"
+                  style="border-radius: 18px; height: 100px"
+                  alt="Card image cap"
+                />
+              </div>
+              <div class="col-md-6" style="padding-top: 10px">
+                <b style="font-size: 12px"> Naminos Lementum An Cosmopolis</b>
+                <p style="font-size: 11px">
+                  <strike>$69.00</strike> from $36.80
+                </p>
+                <div class="container">
+                  <div class="row" style="margin-top: -20px">
+                    <div class="col-md-6">
+                      <div
+                        style="
+                          border: solid 4px brown;
+                          border-radius: 50%;
+                          background-color: red;
+                          height: 20px;
+                          width: 20px;
+                        "
+                      ></div>
+                    </div>
+                    <div class="col-md-6" style="text-align: start">
+                      <div
+                        style="
+                          border: solid 4px grey;
+                          border-radius: 50%;
+                          background-color: green;
+                          height: 20px;
+                          width: 20px;
+                          margin-left: -20px;
+                        "
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+                <a href="#" style="text-decoration: none"
+                  ><span>&#43; Details</span></a
+                >
+              </div>
+              <br />
+            </div>
+            <div class="row">
+              <div class="col-md-5" style="height: 120px">
+                <img
+                  src="../images/herbaltea.jpg"
+                  style="border-radius: 18px; height: 100px"
+                  alt="Card image cap"
+                />
+              </div>
+              <div class="col-md-6" style="padding-top: 10px">
+                <b style="font-size: 12px"> Naminos Lementum An Cosmopolis</b>
+                <p style="font-size: 11px">
+                  <strike>$69.00</strike> from $36.80
+                </p>
+                <div class="container">
+                  <div class="row" style="margin-top: -20px">
+                    <div class="col-md-6">
+                      <div
+                        style="
+                          border: solid 4px brown;
+                          border-radius: 50%;
+                          background-color: red;
+                          height: 20px;
+                          width: 20px;
+                        "
+                      ></div>
+                    </div>
+                    <div class="col-md-6" style="text-align: start">
+                      <div
+                        style="
+                          border: solid 4px grey;
+                          border-radius: 50%;
+                          background-color: green;
+                          height: 20px;
+                          width: 20px;
+                          margin-left: -20px;
+                        "
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+                <a href="#" style="text-decoration: none"
+                  ><span>&#43; Details</span></a
+                >
+              </div>
+              <br />
+            </div>
+          </div>
+
+          <hr style="margin-top: 10px" />
+          <br />
+          <div style="padding-bottom: 20px">
+            <img src="../images/tead.png" />
+          </div>
+
+          <hr style="margin-top: 10px" />
+          <br />
+
+          <h4 style="font-weight: bold">Custom CMS Block</h4>
+          <br />
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis risus
+            leo cosmo, elementum in malesuada an darius ut augue.
+          </p>
+          <br />
+
+          <p>
+            Cras sit amet lectus et justo de feugiat euismod sed non erat. Nulla
+            non felis id metus bibendum iaculis quis sit amet eros. Nam suscipit
+            mollis tellus vel malesuada..
+          </p>
+        </div>
+
+        <div class="col-lg-9 col-md-12">
+          <div style="width: 100%">
+            <img
+              src="../images/tea1.png"
+              style="height=400px; width:75%;"
+            /><br /><br />
+            <p>by Halo Themes on August 12, 2020 | in News | 2 Comments</p>
+            <br />
+            <h2>Naminos Lementum An Cosmopolis</h2>
+            <br />
+            <p style="max-width: 75%;">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+              risus leo cosmo, elementum in malesuada an darius ut augue. Cras
+              sit amet lectus et justo de feugiat euismod sed non erat. Nulla
+              non felis id metus bibendum iaculis quis sit amet eros. Nam
+              suscipit mollis tellus vel malesuada..
+            </p>
+          </div>
+
+          <div style="width: 100%">
+            <img src="img/1.jpg" style="height=400px; width:75%;" /><br /><br />
+
+            <p style="max-width: 75%;">
+              Pellentesque aliquet nibh nec urna. In nisi neque aliquet vel
+              dapibus id mattis vel nisi. Sed pretium ligula sollicitudin
+              laoreet viverra, tortor libero sodales leo, eget blandito nunc
+              tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti. Sed
+              egestas ante et vulputate volutpat eros pede semper est, vitae
+              luctus metus libero eu augue. Morbis purus libero faucibus
+              adipiscing, commodo quis gravida id mesto sed lectus. Praesent
+              elementum hendrerit tortor. Sed semper lorem at felis.
+            </p>
+          </div>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6" style="margin-top: 25px;">
+                Praesent vestibulum congue tellus at fringilla. Curabitur vitae
+                semper sem, deus convallis est. Cras felis nunc commodo eu
+                convallis.<br /><br />
+
+                <h5>Sample Unordered List</h5>
+                <br />
+                <ol type="circle">
+                  <li>Comodous in tempor ullamcorper miaculis.</li>
+                  <li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+                  <li>Divamus sit amet purus justo.</li>
+                  <li>
+                    Proin molestie egestas orci ac suscipit risus posuere
+                    loremous.
+                  </li>
+                </ol>
+                <br /><br />
+
+                <h5>Sample Ordered List</h5>
+                <br />
+                <ol type="a">
+                  <li>Comodous in tempor ullamcorper miaculis</li>
+                  <li>Pellentesque vitae neque mollis urna mattis laoreet.</li>
+                  <li>Divamus sit amet purus justo.</li>
+                  <li>
+                    Proin molestie egestas orci ac suscipit risus posuere
+                    loremous.
+                  </li>
+                </ol>
+                <br /><br />
+
+                <button
+                  type="submit"
+                  class="btn btn-lg btn-primary-outline"
+                  style="border-radius: 0px; border: solid 1px black"
+                >
+                  <h6
+                    style="
+                      font-weight: bold;
+                      font-size: 13px;
+                      padding-top: 10px;
+                      padding-left: 30px;
+                      padding-right: 30px;
+                    "
+                  >
+                    SAMPLE BUTTON
+                  </h6></button
+                ><br /><br /><br />
+              </div>
+              <div class="col-lg-6" style="margin-top: 25px;"> <img
+				src="img/2.jpg"
+				style="height=400px; width:100%;"
+			  /></div>
+
+              <h6>Sample Block Quote</h6>
+              <br />
+              <blockquote
+                style="
+                  background-color: rgb(242, 242, 242);
+                  padding: 20px 10px 20px 10px;
+                  border-left: solid 5px purple;
+                "
+              >
+                Praesent vestibulum congue tellus at fringilla. Curabitur vitae
+                semper sem, eu convallis est. Cras felis nunc commodo eu
+                convallis vitae interdum non nisl. Maecenas ac est sit amet
+                augue pharetra convallis nec danos dui.
+              </blockquote>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6"></div>
+              <div class="col-lg-6"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- START OF FOOTER-->
+    <footer class="footer-area footer--light">
+      <div class="footer-big">
+        <!-- start .container -->
+        <!-- <div class="container"> -->
+        <div class="row" style="padding-left: 50px">
+          <div class="col-lg-2 col-sm-12">
+            <div class="footer-widget">
+              <div class="widget-about">
+                <img src="../images/logo1.jpg" alt="" class="img-fluid" />
+                <p>685 Market Street</p>
+                <p>San Francisco, CA 94105</p>
+                <ul class="contact-details">
+                  <li>
+                    <span class="icon-earphones">Call Us:</span>
+                    <a href="tel:344-755-111" style="font-size: 12px"
+                      >+1 689 699 TEATEA</a
+                    >
+                  </li>
+                  <li>
+                    <span class="icon-envelope-open"> Email</span>
+                    <a
+                      href="mailto:support@aazztech.com"
+                      style="font-size: 12px; color: black"
+                      >support@halothemes.com</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            
+          </div>
+          <!-- end /.col-md-4 -->
+
+          <div class="col-lg-2 col-sm-3">
+            <div class="footer-widget">
+              <div class="footer-menu footer-menu--1">
+                <h4 class="footer-widget-title">Shop</h4>
+                <ul>
+                  <li>
+                    <a href="#">teas</a>
+                  </li>
+                  <li>
+                    <a href="#">teaware</a>
+                  </li>
+                  <li>
+                    <a href="#">Loose Leaft tea</a>
+                  </li>
+                  <li>
+                    <a href="#">Tea Bags</a>
+                  </li>
+                  <li>
+                    <a href="#">LookBook</a>
+                  </li>
+                  <li>
+                    <a href="#">Shop By Brand</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- end /.footer-menu -->
+            </div>
+            <!-- Ends: .footer-widget -->
+          </div>
+          <!-- end /.col-md-3 -->
+
+          <div class="col-lg-2 col-sm-3">
+            <div class="footer-widget">
+              <div class="footer-menu">
+                <h4 class="footer-widget-title">About Us</h4>
+                <ul>
+                  <li>
+                    <a href="#">Blog</a>
+                  </li>
+                  <li>
+                    <a href="#">Press Release</a>
+                  </li>
+                  <li>
+                    <a href="#">About Us</a>
+                  </li>
+                  <li>
+                    <a href="#">Contact us</a>
+                  </li>
+                  <li>
+                    <a href="#">Contact Us</a>
+                  </li>
+                  <li>
+                    <a href="#">Find a Store</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- end /.footer-menu -->
+            </div>
+            <!-- Ends: .footer-widget -->
+          </div>
+          <!-- end /.col-lg-3 -->
+
+          <div class="col-lg-2 col-sm-3">
+            <div class="footer-widget">
+              <div class="footer-menu no-padding">
+                <h4 class="footer-widget-title">Customer Care</h4>
+                <ul>
+                  <li>
+                    <a href="#">Shipping</a>
+                  </li>
+                  <li>
+                    <a href="#">Return Policy</a>
+                  </li>
+                  <li>
+                    <a href="#">Terms And Conditions</a>
+                  </li>
+                  <li>
+                    <a href="#">Privacy Policy</a>
+                  </li>
+                  <li>
+                    <a href="#">FAQs</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- end /.footer-menu -->
+            </div>
+            <!-- Ends: .footer-widget -->
+          </div>
+          <div class="col-lg-2 col-sm-3">
+            <div class="footer-widget">
+              <div class="footer-menu no-padding">
+                <h4 class="footer-widget-title">Follow us</h4>
+                <ul>
+                  <li>
+                    <a href="#">Follow us</a>
+                  </li>
+                  <li>
+                    <a href="#">Terms &amp; Conditions</a>
+                  </li>
+                  <li>
+                    <a href="#">Support Policy</a>
+                  </li>
+                  <li>
+                    <a href="#">Refund Policy</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- end /.footer-menu -->
+            </div>
+            <!-- Ends: .footer-widget -->
+          </div>
+          <!-- Ends: .col-lg-3 -->
+        </div>
+        <!-- end /.row -->
+        <!-- </div> -->
+        <!-- end /.container -->
+      </div>
+      <!-- end /.footer-big -->
+
+      <div class="mini-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div
+                class="copyright-text"
+                style="color: white; text-align: start"
+              >
+                <p>
+                  © 2018 <a href="#">Tea | </a>TeaDemo.Powered by
+                  Shopify.Shopify Themes By<br />
+                  <a href="#">Hallothemes.com</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    END OF FOOTER
+
+    <script type="text/javascript" src="js/main.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
